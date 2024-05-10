@@ -8,3 +8,5 @@ To use this algorithm, you need to have Python installed on your machine. You ca
 
 Once you have Python installed, you can clone this repository using the following command:
 
+https://github.com/inura-perera/Particle-Swarm-Clustering.git
+
