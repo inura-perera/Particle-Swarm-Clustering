@@ -59,6 +59,3 @@ Gained hands-on experience with swarm intelligence and its applications in clust
 
 Feel free to fork this repository and contribute by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
