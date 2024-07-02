@@ -1,12 +1,67 @@
-# Particle Swarm Clustering Algorithm
+# Particle Swarm Clustering on the Iris Dataset
 
-This repository contains an implementation of the Particle Swarm Clustering algorithm in Python. The Particle Swarm Clustering algorithm is a popular optimization technique used for clustering data points.
+## Overview
 
-## Installation
+This project implements a clustering algorithm using Particle Swarm Optimization (PSO) to analyze the Iris dataset. The project was developed as part of the "Swarm Intelligence" module at university, providing hands-on experience with swarm-based optimization techniques.
 
-To use this algorithm, you need to have Python installed on your machine. You can download Python from the official website: [Python.org](https://www.python.org/).
+## Key Features
 
-Once you have Python installed, you can clone this repository using the following command:
+- **Particle Swarm Optimization (PSO)**: Utilizes a swarm of particles to find the optimal clustering of the Iris dataset.
+- **Clustering Evaluation**: Measures clustering performance using quantization error and silhouette score.
+- **Data Visualization**: Visualizes clustering progress and results for better analysis and insights.
 
-https://github.com/inura-perera/Particle-Swarm-Clustering.git
+## Technologies Used
 
+- Python
+- Numpy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## Project Structure
+
+- `main.py`: The main script to run the PSO clustering algorithm on the Iris dataset.
+- `pso_clustering.py`: Contains the `PSOClusteringSwarm` class which implements the PSO algorithm.
+- `particle.py`: Defines the `Particle` class representing individual particles in the swarm.
+
+## How to Run
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/inura-perera/Particle-Swarm-Clustering.git
+    cd Particle-Swarm-Clustering
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download the Iris dataset**:
+    Ensure you have the `iris.csv` file in the project directory. You can download it from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris).
+
+4. **Run the script**:
+    ```bash
+    python main.py
+    ```
+
+## Results
+
+- **Quantization Error**: The average distance of data points to their nearest centroids.
+- **Silhouette Score**: Measures the cohesion and separation of clusters.
+
+## Example Output
+
+![Clustering Visualization](example_output.png)
+
+## Learnings and Insights
+
+Gained hands-on experience with swarm intelligence and its applications in clustering. Learned to balance exploration and exploitation using inertia weight, cognitive, and social coefficients to enhance algorithm performance. Improved skills in visualizing clustering results for better data interpretation.
+
+## Contributing
+
+Feel free to fork this repository and contribute by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
