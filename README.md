@@ -50,9 +50,6 @@ This project implements a clustering algorithm using Particle Swarm Optimization
 - **Quantization Error**: The average distance of data points to their nearest centroids.
 - **Silhouette Score**: Measures the cohesion and separation of clusters.
 
-## Example Output
-
-![Clustering Visualization](example_output.png)
 
 ## Learnings and Insights
 
